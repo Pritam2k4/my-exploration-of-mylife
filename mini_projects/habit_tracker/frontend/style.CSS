@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 2rem;
+}
+
+form, .habit {
+  margin: 1rem auto;
+  max-width: 300px;
+}
+
+.habit {
+  background: #e0f7fa;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
