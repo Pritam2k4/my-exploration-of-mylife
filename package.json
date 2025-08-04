@@ -1,0 +1,27 @@
+{
+  "name": "my-exploration-of-mylife",
+  "version": "1.0.0",
+  "description": "📘 About This Repository\r This is a digital space where I document my learning journey, growth, and interests over time. It serves as a personal archive — a place to collect experiences, ideas, projects, certifications, experiments, and anything else that reflects who I am and what I’m building or exploring.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pritam2k4/my-exploration-of-mylife.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pritam2k4/my-exploration-of-mylife/issues"
+  },
+  "homepage": "https://github.com/Pritam2k4/my-exploration-of-mylife#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}

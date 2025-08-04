@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Minimal Habit Tracker</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
-  <h1>🌱 Habit Tracker</h1>
-  <form id="add-form">
-    <input type="text" id="habit-name" placeholder="New Habit" required />
-    <button>Add</button>
-  </form>
-  <div id="habit-list"></div>
-  <script src="script.js"></script>
+    <h1>Habit Tracker</h1>
+
+    <div id="user-section">
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="createUser()">Create User</button>
+    </div>
+
+    <div id="habit-section" style="display:none;">
+        <input type="text" id="habit-title" placeholder="Habit Title">
+        <select id="habit-frequency">
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+        </select>
+        <button onclick="addHabit()">Add Habit</button>
+        <h3>Your Habits:</h3>
+        <ul id="habit-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
