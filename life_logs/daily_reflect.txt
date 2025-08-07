@@ -1,2 +1,9 @@
 #5-8-25
-"today i discoveryed the concept of mern stack and the value of js so before building application i will parallely learn the concept of mern stack and wwhen it comes to dsa i thinking rather than seeing it as problems i will start to see them as some data and patterns to solve and find different parts of my life some common threads to get the job done thats it for today will update tmr "
+"today i discoveryed the concept of mern stack and the value of js so before building application i will parallely learn the concept of mern stack and wwhen it comes to dsa i thinking rather than seeing it as problems i will start to see them as some data and patterns to solve and find different parts of my life some common threads to get the job done thats it for today will update tmr"
+
+#7-08-25
+"i dont know if this is the finish line or start of something great but i started to prefer silent over chitchat and any kind of noise trying to begin new habit and journal along the way i think people are asked to journal becuase it is a slow proccess and lets us think over our thoughts and gives us that slilent moment to think over 
+and makes us deligent towards other parts of our life and this silent makes us stable through out for now i understood dsa isnt a language based thing but a mental concept which can be exicuted by any language so as most prefer c++ and i also started with it i will move with it for now i will give apause to python and master this specific part"
+
+#9-08-25
+""
