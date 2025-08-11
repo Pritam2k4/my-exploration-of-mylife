@@ -1,17 +1,28 @@
-import requests
+import streamlit as st
+import pandas as pd
 
-api_key = '30d4741c779ba94c470ca1f63045390a'
+# --- App Title ---
+st.title("📊 My First Streamlit App")
+st.write("This is my Beast Mode Day 1 demo app 🚀")
 
-user_input = input("Enter city: ")
+# --- Load Sample Data ---
+url = "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv"
+df = pd.read_csv(url)
 
-weather_data = requests.get(
-    f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=imperial&APPID={api_key}")
+# --- Display Data ---
+st.subheader("Dataset Preview")
+st.dataframe(df.head())
 
-if weather_data.json()['cod'] == '404':
-    print("No City Found")
-else:
-    weather = weather_data.json()['weather'][0]['main']
-    temp = round(weather_data.json()['main']['temp'])
+# --- Simple Stats ---
+st.subheader("Summary Statistics")
+st.write(df.describe())
 
-    print(f"The weather in {user_input} is: {weather}")
-    print(f"The temperature in {user_input} is: {temp}ºF")
+# --- Visualization ---
+st.subheader("Total Bill Distribution")
+st.bar_chart(df['total_bill'])
+
+# --- User Interaction ---
+st.subheader("Filter by Day")
+day = st.selectbox("Choose a day", df['day'].unique())
+filtered_df = df[df['day'] == day]
+st.write(filtered_df)
