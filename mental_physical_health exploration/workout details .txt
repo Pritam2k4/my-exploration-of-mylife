@@ -1,62 +1,64 @@
 ╔════════════════════════════╗
-║        P P L   S P L I T   ║
+║ P P L S P L I T ║
 ╚════════════════════════════╝
-"It is a tragedy for a man to live his whole life without ever meeting the strongest version of himself."
+"Strong people are harder to kill, and generally more useful."
 
 ╔════════════════════════════════════════════════════════╗
-║           PUSH A – CHEST DOMINANT (12 SETS)           ║
+║ PUSH A – CHEST DOMINANT (16 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ Incline Dumbbell Press           ▐ 2 × 8–10  ▐ Compound
-▸ Flat Dumbbell Press              ▐ 2 × 10–12 ▐ Compound
-▸ Seated DB Overhead Press         ▐ 2 × 8–10  ▐ Compound
-▸ Dumbbell Lateral Raise           ▐ 2 × 12–15 ▐ Isolation
-▸ Overhead Dumbbell Extension      ▐ 2 × 10–12 ▐ Isolation
-▸ Rope Pushdown                    ▐ 2 × 12–15 ▐ Isolation
+▸ Incline Dumbbell Press ▐ 3 × 6–8 ▐ Compound (heavy)
+▸ Flat Dumbbell Press ▐ 3 × 8–10 ▐ Compound
+▸ Dumbbell Fly (Incline) ▐ 2 × 10–12 ▐ Isolation
+▸ Seated Overhead Barbell/DB Press ▐ 3 × 8–10 ▐ Compound
+▸ Dumbbell Lateral Raise ▐ 3 × 12–15 ▐ Isolation
+▸ Overhead Dumbbell Extension ▐ 2 × 10–12 ▐ Isolation
 
 ╔════════════════════════════════════════════════════════╗
-║         PUSH B – SHOULDER DOMINANT (12 SETS)          ║
+║ PUSH B – SHOULDER DOMINANT (15 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ Machine / Arnold Shoulder Press  ▐ 2 × 8–10  ▐ Compound
-▸ Cable / DB Lateral Raise         ▐ 2 × 12–15 ▐ Isolation
-▸ Flat Dumbbell Press              ▐ 2 × 8–10  ▐ Compound
-▸ Low-to-High Cable Chest Fly      ▐ 2 × 12–15 ▐ Isolation
-▸ Overhead Dumbbell Extension      ▐ 2 × 10–12 ▐ Isolation
-▸ Rope Pushdown                    ▐ 2 × 12–15 ▐ Isolation
+▸ Machine / Arnold Press ▐ 3 × 8–10 ▐ Compound
+▸ Dumbbell Lateral Raise ▐ 3 × 12–15 ▐ Isolation
+▸ Flat Barbell/Dumbbell Press ▐ 3 × 8–10 ▐ Compound
+▸ Low-to-High Cable Chest Fly ▐ 2 × 12–15 ▐ Isolation
+▸ Rope Pushdown ▐ 2 × 12–15 ▐ Isolation
+▸ Overhead DB Extension / Skullcr. ▐ 2 × 10–12 ▐ Isolation
 
 ╔════════════════════════════════════════════════════════╗
-║        PULL A – LATS + MID-BACK FOCUS (12 SETS)       ║
+║ PULL A – LATS + MID-BACK FOCUS (16 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ Close-Grip Lat Pulldown          ▐ 2 × 10–12 ▐ Vertical Pull
-▸ Chest-Supported Machine Row      ▐ 2 × 8–10  ▐ Horizontal Pull
-▸ Dumbbell Shrugs                  ▐ 2 × 12–15 ▐ Isolation
-▸ Reverse Pec Deck Fly             ▐ 2 × 12–15 ▐ Isolation
-▸ Alt. Dumbbell Curl               ▐ 2 × 10–12 ▐ Biceps
-▸ Preacher Curl (Machine / EZ Bar)▐ 2 × 12–15 ▐ Biceps
+▸ Pull-Ups / Lat Pulldown (Wide) ▐ 3 × 8–10 ▐ Vertical Pull
+▸ Chest-Supported Row (DB/Machine) ▐ 3 × 8–10 ▐ Horizontal Pull
+▸ Barbell / DB Shrugs ▐ 2 × 12–15 ▐ Isolation
+▸ Reverse Pec Deck Fly ▐ 3 × 12–15 ▐ Rear Delts
+▸ Alt. Dumbbell Curl ▐ 3 × 10–12 ▐ Biceps
+▸ Preacher Curl (EZ Bar / Machine) ▐ 2 × 12–15 ▐ Biceps
 
 ╔════════════════════════════════════════════════════════╗
-║       PULL B – UPPER BACK + TRAPS FOCUS (12 SETS)     ║
+║ PULL B – UPPER BACK + TRAPS FOCUS (15 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ CG Assisted Pull-Up / Pulldown   ▐ 2 × 8–10  ▐ Vertical Pull
-▸ Seated Cable Row (CG / Neutral)  ▐ 2 × 10–12 ▐ Horizontal Pull
-▸ Barbell Shrugs                   ▐ 2 × 10–12 ▐ Isolation
-▸ Reverse Pec Deck Fly             ▐ 2 × 12–15 ▐ Isolation
-▸ Alt. Dumbbell Curl               ▐ 2 × 10–12 ▐ Biceps
-▸ Preacher Curl (Same as Pull A)  ▐ 2 × 12–15 ▐ Biceps
+▸ Pull-Ups / Pulldown (Close Grip) ▐ 3 × 8–10 ▐ Vertical Pull
+▸ Barbell Rows (Underhand Grip) ▐ 3 × 8–10 ▐ Horizontal Pull
+▸ Seated Cable Row (Neutral Grip) ▐ 2 × 10–12 ▐ Horizontal Pull
+▸ Barbell / DB Shrugs ▐ 2 × 10–12 ▐ Isolation
+▸ Reverse Pec Deck Fly ▐ 3 × 12–15 ▐ Rear Delts
+▸ Alt. Dumbbell Curl ▐ 2 × 10–12 ▐ Biceps
 
 ╔════════════════════════════════════════════════════════╗
-║       LEG A – QUAD + GLUTE FOCUS (12 SETS)            ║
+║ LEG A – QUAD + GLUTE FOCUS (16 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ Barbell Back Squat               ▐ 3 × 8–10  ▐ Free Weight
-▸ Leg Extension (Machine)          ▐ 2 × 12–15 ▐ Isolation
-▸ Glute Kickback (Cable/Machine)   ▐ 2 × 12–15 ▐ Isolation
-▸ Lying Leg Curl (Machine)         ▐ 2 × 10–12 ▐ Hamstrings
-▸ Seated Calf Raise (Machine)      ▐ 3 × 12–15 ▐ Calves
+▸ Barbell Back Squat ▐ 4 × 6–8 ▐ Free Weight
+▸ Leg Press ▐ 3 × 8–10 ▐ Compound
+▸ Leg Extension (Machine) ▐ 2 × 12–15 ▐ Isolation
+▸ Glute Kickback (Cable/Machine) ▐ 2 × 12–15 ▐ Isolation
+▸ Lying Leg Curl (Machine) ▐ 2 × 10–12 ▐ Hamstrings
+▸ Seated Calf Raise (Machine) ▐ 3 × 12–15 ▐ Calves
 
 ╔════════════════════════════════════════════════════════╗
-║     LEG B – HAMSTRING + GLUTE FOCUS (12 SETS)         ║
+║ LEG B – HAMSTRING + GLUTE FOCUS (15 SETS) ║
 ╚════════════════════════════════════════════════════════╝
-▸ Romanian Deadlifts (DB / BB)     ▐ 3 × 8–10  ▐ Hamstrings
-▸ Hip Thrust (Barbell / Machine)   ▐ 2 × 10–12 ▐ Glutes
-▸ Hack Squat / Goblet Squat        ▐ 2 × 10–12 ▐ Quads
-▸ Seated Leg Curl (Machine)        ▐ 2 × 10–12 ▐ Hamstrings
-▸ Standing Calf Raise (Machine)    ▐ 3 × 12–15 ▐ Calves
+▸ Romanian Deadlifts (DB / BB) ▐ 4 × 8–10 ▐ Hamstrings
+▸ Hip Thrust (Barbell / Machine) ▐ 3 × 8–10 ▐ Glutes
+▸ Hack Squat / Goblet Squat ▐ 2 × 10–12 ▐ Quads
+▸ Seated Leg Curl (Machine) ▐ 2 × 10–12 ▐ Hamstrings
+▸ Standing Calf Raise (Machine) ▐ 3 × 12–15 ▐ Calves
+▸ Walking Lunges ▐ 1–2 × 12 ▐ Glutes/Quads
