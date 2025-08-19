@@ -1,0 +1,45 @@
+journal
+
+--
+
+## 13-08-25
+Slow day, but solid library study with Manas; met Abhiram after many days.  
+Taking GATE prep more seriously (friends’ momentum helps).  
+Spent time with mom; cooked dinner for me and dad.  
+Built a small email spam classifier in Python.  
+Step by step—treating daily tasks with discipline and devotion.  
+Ended the day with a peaceful walk.
+
+## 14-08-25
+
+Went beast mode in workout 💪
+Practiced many Linear Algebra sums
+Understood greedy methods in DSA
+Built Streamlit interface for email classifier
+Learned basic Machine Learning concepts
+Realized control > elimination; small post-lunch nap helps regain momentum & avoid bad habits
+
+## 15-08-25
+
+Gym was closed for Independence Day, but stayed on track with personal goals
+Planned to begin exam registrations and reinforced the mindset of giving it my all
+Realized the biggest obstacle is myself, and chose peace over happiness or sadness
+Talked to friends like Venkat and Anirudh, keeping connections active
+Studied a few subjects and completed all daily tasks
+Decided to stay consistent, start with aptitude, and carry the motto: no emotions, no reactions
+
++-------------------------------------------------------------+
+| Journal Entry - [17-08-25]                                       |
+|                                                             |
+| I’ll focus on one habit at a time, starting by waking up     |
+| before 6 AM. After waking, I’ll spend 5-10 minutes in peace  |
+| to clear my mind before diving into the day. In the evenings,|
+| I’ll take time to journal and reflect on the day. With new    |
+| GATE subjects like verbal ability and algorithms coming up,  |
+| I’ll avoid overloading myself with too much information. I’ll |
+| take things slow, stay consistent, and not stress if I miss  |
+| a day.                                                       |
++-------------------------------------------------------------+
+
+
+ 
