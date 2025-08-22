@@ -59,5 +59,12 @@ Decided to stay consistent, start with aptitude, and carry the motto: no emotion
 | dharma, focusing on peace and discipline in all I do.       |
 +-------------------------------------------------------------+
 
+Journal Entry – 22-08-25
+
+Today I realized something important: I can’t focus on too many things at once. Right now, my capacity is two things, and that’s okay. Trying to learn multiple programming languages quickly feels immature and unnecessary. So, I’ve officially decided to stick with Python. Whether it’s AI, ML, DL, data handling, or even math, I want to build everything with this one language. For the first time, I can see a clear path ahead.
+
+Looking back, some decisions change your life. The first for me was joining the gym, and now this feels like the second big one. Also, I had a talk with Krishna during my low phase—his words genuinely lifted me and gave me the push to keep fighting my inner battles.
+
+As for studies, I was advised to attend lectures first and make proper notes before focusing on DPPs. That makes sense—get the foundation right, then practice. So for now, my goal is simple: finish the notes and attend lectures consistently.
 
  
