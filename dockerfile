@@ -17,4 +17,5 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Default command (interactive shell)
-CMD ["bash"]
+CMD ["bash"]docker build -t my-exploration-of-mylife .
+

@@ -67,4 +67,41 @@ Looking back, some decisions change your life. The first for me was joining the 
 
 As for studies, I was advised to attend lectures first and make proper notes before focusing on DPPs. That makes sense—get the foundation right, then practice. So for now, my goal is simple: finish the notes and attend lectures consistently.
 
+Journal Entry – 23-08-25
+
+Today, I felt genuinely at peace—productive, calm, and in control.  
+I realized that my peace comes from making non-negotiable decisions and sticking to them.  
+
+I’ve decided to dedicate fixed blocks of time for my priorities:  
+**4–6 PM and 10 PM–1 AM for focused study**,  
+and **2:30–3 PM for limited social media use**.  
+
+Gym sessions are already in motion (went early today; Bhuvanesh came late as usual),  
+and I’m working on clearing my calculus backlog before moving to the regression series.  
+
+Alongside this, I’ll keep progressing in DSA and Python projects—both my major and personal ones—  
+which require consistent R&D.  
+
+I did slip with snacks today and want to avoid that moving forward,  
+but overall, I’m happy with my flow and even enjoyed today’s AI talk.
+
+Journal Entry – 24-08-25
+
+Today felt smooth and productive. For the first time in a while, I was able
+to finish everything I had planned, keeping a slow but consistent pace. I
+completed my workout, attended my classes, and started working on Python.
+I plan to continue this while also diving deeper into R and ML/DL. I
+managed to make notes on regression and classification, which felt good.
+
+Overall, the day felt controlled and balanced, though I might tweak my
+workout split slightly in the coming days. I also noticed a subtle fear of
+losing creeping in subconsciously. I need to remind myself that I am
+preparing for an exam, and that one day I will be giving it. Focusing on
+preparation with this mindset is more important than passive worry.
+
+I hope the next few days go by as smoothly and productively as today.
+
+
+
+
  
