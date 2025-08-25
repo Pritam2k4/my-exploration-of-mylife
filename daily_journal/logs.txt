@@ -103,6 +103,24 @@ I hope the next few days go by as smoothly and productively as today.
 
 Journal Entry – 25-08-25
 
+Learning**  
+  - Explored version control.  
+  - New project aim: basic transformer fine-tuning.  
+  - Need to improve PyTorch + core framework skills.  
+
+- **Academics**  
+  - DBMS videos → clear backlog this week.  
+  - Calculus → progressing smoothly.  
+  - Regression → practice problems.  
+
+- **Fitness**  
+  - Start: 11 sets till failure.  
+  - Add 2 leg days per week.  
+
+- **Life Lesson**  
+  - Never fight lust → best option is to avoid/run away. 
+
+Journal Entry – 26-08-25
 
 
 

@@ -1,6 +1,0 @@
-# General project requirements
-
-numpy
-pandas
-openai
-langchain
