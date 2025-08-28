@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{sectsty}
+
+% ---------- Hyperlink Colors ----------
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue
+}
+
+% ---------- Section Colors ----------
+\sectionfont{\color{blue}}
+
+% ---------- Formatting ----------
+\setlist[itemize]{leftmargin=*, topsep=2pt, itemsep=2pt}
+\titleformat{\section}{\large\bfseries\color{blue}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+\renewcommand{\baselinestretch}{1.05}
+
+% ---------- Header ----------
+\begin{document}
+
+{\LARGE \textbf{Preetam Naik}}\\[4pt]
+\href{mailto:preetam.naik3@gmail.com}{preetam.naik3@gmail.com} \textbar{} +91-9676290504 \textbar{} Hyderabad, India\\
+\href{https://github.com/Pritam2k4}{github.com/Pritam2k4} \textbar{}
+\href{https://www.linkedin.com/in/preetam-naik2k4/}{linkedin.com/in/preetam-naik2k4}
+
+\vspace{2mm}
+
+% ---------- Summary ----------
+\section*{Professional Summary}
+A passionate learner who thrives in dynamic environments that demand adaptability and problem-solving. I actively seek knowledge across multiple domains, embracing challenges as opportunities to innovate, grow, and create impactful solutions.
+
+\hrule
+\vspace{1mm}
+
+% ---------- Education ----------
+\section*{Education}
+\textbf{B.Tech — Computer Science \& Engineering (AI/ML)} \hfill 2022–Present\\
+VNR VJIET, Hyderabad \hfill \textbf{CGPA: 7.2}
+
+\textbf{Intermediate — Physics, Chemistry \& Mathematics} \hfill 2020–2022\\
+Sri Chaitanya Junior College \hfill \textbf{Score: 800/1000}
+
+\textbf{School — ICSE} \hfill 2020\\
+Johnson Grammar School \hfill \textbf{Percentage: 70\%}
+
+\hrule
+\vspace{1mm}
+
+% ---------- Skills ----------
+\section*{Skills}
+\textbf{Technical:} Python, SQL, C++, Java (OOP), Power BI, MS Excel, Firebase, Git, GitHub, VS Code \\
+\textbf{Soft Skills:} Learning Agility, Adaptability, Problem-Solving, Team Collaboration, Accountability
+
+\hrule
+\vspace{1mm}
+
+% ---------- Projects ----------
+\section*{Projects}
+\textbf{Restaurant User Review to Outcome of Sales Analyser — Python \& SQL} \hfill 2025
+\begin{itemize}
+  \item Built a data analysis and visualization tool using Python and SQL to assess the impact of restaurant user reviews on sales performance.
+  \item Implemented processes such as data cleaning, feature engineering, and integration using libraries like NumPy and Python-SQL connectors.
+  \item Enabled actionable insights for restaurant owners through efficient sales trend visualization and data-driven analysis.
+\end{itemize}
+
+\textbf{Excel to CSV Data Converter} \hfill 2024
+\begin{itemize}
+  \item Developed a Python tool to convert Excel files to CSV with dynamic column selection and filtering options.
+  \item Improved data processing efficiency, reducing manual workload and ensuring cleaner outputs.
+\end{itemize}
+
+\hrule
+\vspace{1mm}
+
+% ---------- Certifications ----------
+\section*{Certifications}
+Machine Learning Specialization — Andrew Ng (Coursera) \\
+Privacy and Security in Online Social Media — NPTEL \\
+100 Days of Code with Python — Udemy \\
+Master DSA with C++ — Udemy
+
+\hrule
+\vspace{1mm}
+
+% ---------- Leadership & Activities ----------
+\section*{Leadership \& Activities}
+HR Head — Street Cause (National NGO): Managed recruitment, led people initiatives, and improved organizational communication.\\
+AR Head — Student Force: Coordinated team activities, enhanced responsibility and leadership skills.
+
+\hrule
+\vspace{1mm}
+
+% ---------- Interests ----------
+\section*{Interests}
+Data Analytics, Gaming, Fitness, Sports, Gardening, Journaling, Emerging Tech
+
+\end{document}
