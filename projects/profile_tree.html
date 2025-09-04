@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Tree - Interactive</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background: linear-gradient(135deg, #4a7c59 0%, #8fbc8f 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: 
+                radial-gradient(circle at 10% 20%, rgba(69, 139, 116, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 90% 80%, rgba(69, 139, 116, 0.3) 0%, transparent 50%),
+                linear-gradient(135deg, #4a7c59 0%, #8fbc8f 100%);
+        }
+        
+        .title {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f4e4bc;
+            border: 4px solid #8b4513;
+            border-radius: 10px;
+            padding: 15px 30px;
+            color: #2d4a2d;
+            font-size: 20px;
+            box-shadow: 4px 4px 0px #654321;
+            z-index: 100;
+        }
+        
+        .tree-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 700px;
+        }
+        
+        .node {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border-radius: 15px;
+            border: 3px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 24px;
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+        }
+        
+        .node:hover {
+            transform: scale(1.1);
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.4);
+            z-index: 10;
+        }
+        
+        .node:active {
+            transform: scale(0.95);
+        }
+        
+        /* Node positioning */
+        .linkedin { top: 50px; left: 265px; background: #0077b5; color: white; }
+        .github { top: 120px; left: 180px; background: #333; color: white; }
+        .medium { top: 120px; left: 350px; background: #00ab6c; color: white; }
+        .kaggle { top: 190px; left: 95px; background: #20beff; color: white; }
+        .hashtag { top: 190px; left: 265px; background: #ff6b35; color: white; }
+        .behance { top: 190px; left: 435px; background: #1769ff; color: white; }
+        .twitter { top: 260px; left: 180px; background: #1da1f2; color: white; }
+        .stackoverflow { top: 260px; left: 350px; background: #f48024; color: white; }
+        .blogger { top: 330px; left: 95px; background: #ff5722; color: white; }
+        .google { top: 330px; left: 265px; background: #4285f4; color: white; }
+        .upwork { top: 330px; left: 435px; background: #6fda44; color: white; }
+        .tableau { top: 400px; left: 180px; background: #e97627; color: white; }
+        .cash-app { top: 400px; left: 350px; background: #00d632; color: white; }
+        .email { top: 470px; left: 265px; background: #ea4335; color: white; }
+        
+        /* Tree branches */
+        .branch {
+            position: absolute;
+            background: #8b4513;
+            z-index: -1;
+        }
+        
+        .branch-vertical {
+            width: 4px;
+            height: 70px;
+        }
+        
+        .branch-horizontal {
+            height: 4px;
+            width: 170px;
+        }
+        
+        /* Branch positioning */
+        .branch1 { top: 120px; left: 298px; }
+        .branch2 { top: 155px; left: 213px; }
+        .branch2h { top: 155px; left: 213px; }
+        .branch3 { top: 190px; left: 298px; }
+        .branch4 { top: 225px; left: 128px; }
+        .branch4h { top: 225px; left: 128px; }
+        .branch5 { top: 260px; left: 298px; }
+        .branch6 { top: 295px; left: 128px; }
+        .branch6h { top: 295px; left: 128px; }
+        .branch7 { top: 330px; left: 298px; }
+        .branch8 { top: 365px; left: 213px; }
+        .branch8h { top: 365px; left: 213px; }
+        .branch9 { top: 400px; left: 298px; }
+        
+        /* Decorative elements */
+        .tree-decoration {
+            position: absolute;
+            font-size: 16px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .leaf1 { top: 100px; left: 50px; color: #228b22; }
+        .leaf2 { top: 150px; right: 50px; color: #32cd32; }
+        .leaf3 { top: 250px; left: 30px; color: #228b22; }
+        .leaf4 { top: 300px; right: 30px; color: #32cd32; }
+        .flower1 { top: 180px; left: 20px; color: #ffd700; }
+        .flower2 { top: 220px; right: 20px; color: #ffa500; }
+        
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 10px;
+            white-space: nowrap;
+            z-index: 1000;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .tooltip.show {
+            opacity: 1;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .tree-container {
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+            .title {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .tree-container {
+                transform: translate(-50%, -50%) scale(0.6);
+            }
+            .title {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">PROFILE TREE</div>
+        
+        <div class="tree-container">
+            <!-- Tree branches -->
+            <div class="branch branch-vertical branch1"></div>
+            <div class="branch branch-horizontal branch2h"></div>
+            <div class="branch branch-vertical branch3"></div>
+            <div class="branch branch-horizontal branch4h"></div>
+            <div class="branch branch-vertical branch5"></div>
+            <div class="branch branch-horizontal branch6h"></div>
+            <div class="branch branch-vertical branch7"></div>
+            <div class="branch branch-horizontal branch8h"></div>
+            <div class="branch branch-vertical branch9"></div>
+            
+            <!-- Profile nodes -->
+            <div class="node linkedin" data-tooltip="LinkedIn Profile">in</div>
+            <div class="node github" data-tooltip="GitHub Repository">⚡</div>
+            <div class="node medium" data-tooltip="Medium Articles">M</div>
+            <div class="node kaggle" data-tooltip="Kaggle Competitions">K</div>
+            <div class="node hashtag" data-tooltip="Social Media">#</div>
+            <div class="node behance" data-tooltip="Behance Portfolio">🎨</div>
+            <div class="node twitter" data-tooltip="Twitter Profile">🐦</div>
+            <div class="node stackoverflow" data-tooltip="Stack Overflow">⚡</div>
+            <div class="node blogger" data-tooltip="Blog Posts">✍️</div>
+            <div class="node google" data-tooltip="Google Services">G</div>
+            <div class="node upwork" data-tooltip="Upwork Profile">💼</div>
+            <div class="node tableau" data-tooltip="Tableau Public">📊</div>
+            <div class="node cash-app" data-tooltip="Cash App">💰</div>
+            <div class="node email" data-tooltip="Email Contact">✉️</div>
+            
+            <!-- Decorative elements -->
+            <div class="tree-decoration leaf1">🍃</div>
+            <div class="tree-decoration leaf2">🍃</div>
+            <div class="tree-decoration leaf3">🍃</div>
+            <div class="tree-decoration leaf4">🍃</div>
+            <div class="tree-decoration flower1">🌸</div>
+            <div class="tree-decoration flower2">🌼</div>
+        </div>
+        
+        <div class="tooltip" id="tooltip"></div>
+    </div>
+
+    <script>
+        // Interactive functionality
+        const nodes = document.querySelectorAll('.node');
+        const tooltip = document.getElementById('tooltip');
+        
+        // Platform URLs (you can customize these)
+        const platformUrls = {
+            'linkedin': 'https://linkedin.com/in/yourprofile',
+            'github': 'https://github.com/yourusername',
+            'medium': 'https://medium.com/@yourusername',
+            'kaggle': 'https://kaggle.com/yourusername',
+            'hashtag': 'https://instagram.com/yourusername',
+            'behance': 'https://behance.net/yourusername',
+            'twitter': 'https://twitter.com/yourusername',
+            'stackoverflow': 'https://stackoverflow.com/users/youruser',
+            'blogger': 'https://yourblog.blogspot.com',
+            'google': 'https://developers.google.com/profile/yourusername',
+            'upwork': 'https://upwork.com/freelancers/yourprofile',
+            'tableau': 'https://public.tableau.com/profile/yourusername',
+            'cash-app': 'https://cash.app/$yourusername',
+            'email': 'mailto:your.email@gmail.com'
+        };
+        
+        nodes.forEach(node => {
+            // Hover effects with tooltip
+            node.addEventListener('mouseenter', (e) => {
+                const tooltipText = node.getAttribute('data-tooltip');
+                tooltip.textContent = tooltipText;
+                tooltip.classList.add('show');
+                updateTooltipPosition(e);
+                
+                // Add pulse effect
+                node.style.animation = 'pulse 0.6s ease-in-out infinite alternate';
+            });
+            
+            node.addEventListener('mouseleave', () => {
+                tooltip.classList.remove('show');
+                node.style.animation = 'none';
+            });
+            
+            node.addEventListener('mousemove', updateTooltipPosition);
+            
+            // Click functionality
+            node.addEventListener('click', (e) => {
+                const nodeClass = Array.from(node.classList).find(cls => cls !== 'node');
+                const url = platformUrls[nodeClass];
+                
+                if (url) {
+                    // Add click animation
+                    node.style.transform = 'scale(0.9)';
+                    setTimeout(() => {
+                        node.style.transform = '';
+                    }, 150);
+                    
+                    // Open URL after animation
+                    setTimeout(() => {
+                        window.open(url, '_blank');
+                    }, 200);
+                } else {
+                    // Show coming soon message
+                    alert('Coming Soon! 🚀');
+                }
+            });
+        });
+        
+        function updateTooltipPosition(e) {
+            const rect = tooltip.getBoundingClientRect();
+            tooltip.style.left = (e.clientX - rect.width / 2) + 'px';
+            tooltip.style.top = (e.clientY - rect.height - 10) + 'px';
+        }
+        
+        // Add CSS for pulse animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0% { box-shadow: 3px 3px 0px rgba(0,0,0,0.3); }
+                100% { box-shadow: 6px 6px 15px rgba(0,0,0,0.5); }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Add floating particles effect
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.style.position = 'absolute';
+            particle.style.width = '4px';
+            particle.style.height = '4px';
+            particle.style.background = '#ffd700';
+            particle.style.borderRadius = '50%';
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = window.innerHeight + 'px';
+            particle.style.pointerEvents = 'none';
+            particle.style.opacity = '0.7';
+            
+            document.body.appendChild(particle);
+            
+            // Animate particle
+            particle.animate([
+                { transform: 'translateY(0px)', opacity: 0.7 },
+                { transform: `translateY(-${window.innerHeight + 100}px)`, opacity: 0 }
+            ], {
+                duration: 3000 + Math.random() * 2000,
+                easing: 'ease-out'
+            }).onfinish = () => {
+                particle.remove();
+            };
+        }
+        
+        // Create particles periodically
+        setInterval(createParticle, 2000);
+        
+        console.log('🌳 Profile Tree loaded successfully! Click on any node to visit the platform.');
+    </script>
+</body>
+</html>
