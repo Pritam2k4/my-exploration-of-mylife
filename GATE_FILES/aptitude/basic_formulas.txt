@@ -1,0 +1,73 @@
+=============================
+PERCENTAGES – CONCEPTS & FORMULAS
+=============================
+
+DEFINITION:
+- A percentage is a number or ratio expressed as a fraction with denominator 100.
+- x% = x/100
+- Example: 10% = 10/100 = 1/10
+
+-----------------------------
+BASIC FORMULAS
+-----------------------------
+1. Finding a percentage of a number:
+   (a/100) × b
+
+2. Finding what percentage one number is of another:
+   (b/a) × 100
+
+3. Percentage change (increase or decrease):
+   (Change / Initial Value) × 100
+
+4. Increase a number N by S%:
+   N × (1 + S/100)
+
+5. Decrease a number N by S%:
+   N × (1 - S/100)
+
+-----------------------------
+PERCENTAGE DIFFERENCE
+-----------------------------
+Percentage Difference = |N1 - N2| / [(N1 + N2)/2] × 100
+
+-----------------------------
+PERCENTAGE INCREASE & DECREASE
+-----------------------------
+- If A is R% more than B, then B is less than A by:
+  (R / (100 + R)) × 100 %
+
+- If A is R% less than B, then B is more than A by:
+  (R / (100 - R)) × 100 %
+
+-----------------------------
+SUCCESSIVE PERCENTAGE CHANGE
+-----------------------------
+1. Successive Increase of a% and b%:
+   a + b + (ab/100) %
+
+2. Successive Discounts of a% and b%:
+   a + b - (ab/100) %
+
+-----------------------------
+POPULATION FORMULAS
+-----------------------------
+If population is P and increases at R% per annum:
+
+- Population after n years:
+  P × (1 + R/100)^n
+
+- Population n years ago:
+  P / (1 + R/100)^n
+
+-----------------------------
+DEPRECIATION FORMULAS
+-----------------------------
+If value of machine is P and it depreciates at R% per annum:
+
+- Value after n years:
+  P × (1 - R/100)^n
+
+- Value n years ago:
+  P / (1 - R/100)^n
+
+
