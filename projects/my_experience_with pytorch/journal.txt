@@ -1,0 +1,2 @@
+starting pytorch as i am aimming to be a ml engineer  or furthher have a career in aiml so though to start with pytorch for further knowledge and overally better understanding of theoratical topics or dl and ml 
+current state -have only vague understanding of what pytorch is never used it or studed it and have no educational knowledge about it goal for next entry is to gain explainale understanding of the tool 
